@@ -1,6 +1,5 @@
 from difflib import SequenceMatcher
 from functools import lru_cache
-from pathlib import Path
 import argparse
 import random
 import click
@@ -49,8 +48,7 @@ def main(args) -> None:
 
     delimiter = '_'
 
-    acronyms = loadAcronymsFromFile(
-        Path(__file__).with_name(file_name), delimiter)
+    acronyms = loadAcronymsFromFile(file_name, delimiter)
 
     while True:
 
@@ -108,12 +106,12 @@ if __name__ == '__main__':
         description='Mostra acronimi estesi e simili.')
     parser.add_argument('--show', type=int, required=False,
                         default=5, help='Numero di acronimi simili da mostrare in coda')
-    parser.add_argument('--file', type=str, required=False,
-                        default='acronimi.csv', help='File .csv dal quale prendere gli acronimi')
+    parser.add_argument('--file', type=str, required=True,
+                        help='File .csv dal quale prendere gli acronimi')
     parser.add_argument('--col', type=str, required=False,
                         default='green', help='Colore della prima riga')
     parser.add_argument('--noscroll', type=bool, required=False,
-                        default=False, help='Pulire il terminale invece di farlo scorrere')
+                        default=False, help='Pulire il terminale invece di farlo scorrere', action=argparse.BooleanOptionalAction)
     args = parser.parse_args()
 
     try:
