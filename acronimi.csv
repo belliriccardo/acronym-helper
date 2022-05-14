@@ -1,0 +1,138 @@
+4G,4th Generation
+ARQ,Automatic Repeat Request
+AUC,AUthentication Center
+AUTN,AUThentication Number
+BCCH,Broadcast Control CHannel
+BCH,Broadcast CHannel
+BS,Base Station
+C RNTI,Control Radio Network Temporary Identifier
+C RNTI,Cell Radio Network Temporary Identifier
+CCCH,Common Control CHannel
+CDMA,Code Division Multiple Access
+CFI,Control Format Indicator
+CK,Ciphering Key
+CSMA,Carrier Sense Multiple Access
+CSMA/CD,CSMA with Collision Detection
+DCCH,Dedicated Control CHannel
+DL SCH,DownLink Shared CHannel
+DM RS,DeModulation Reference Signal
+DTCH,Dedicated Traffic CHannel
+E UTRAN,Evolved UMTS Terrestrial Radio Access Network
+EARFCN,E-UTRA Absolute Radio Frequency Channel Number
+ECGI,E-UTRAN Cell Global Identifier
+ECI,E-UTRAN Cell Identifier
+ECM,EPS Connection Management
+EMM,EPS Mobility Management
+EPS,Evolved Packet System
+EUTRA,Evolved Universal Terrestrial Radio Access
+FDD,Frequency Division Duplexing
+FDE,Frequency Domain Equalization
+FDMA,Frequency Division Multiple Access
+FEC,Forward Error Correction
+GBR,Guaranteed Bit Rate
+GPRS,General Packet Radio Service
+GTP C,GPRS Tunneling Protocol Control
+GTP U,GPRS Tunneling Protocol User plain
+GUMMEI,Globally Unique MME Identifier
+GUTI,Globally Unique UE Identity
+HARQ,Hybrid ARQ
+HSS,Home Subscribing Service
+ICI,Inter Carrier Interference
+IK,Integrity Key
+IMS,IP Multimedia Signalling
+IMSI,International Mobile Subscriber Identity
+IP,Internet Protocol
+K ASME,Key Access Security Management Entity
+K ENB,Key ENode B
+K NASENC,Key Non Access Stratum ENCoding
+K NASINT,Key Non Access Stratum INTegrity
+K RRCENC,Key Radio Resource Control ENCoding
+K RRCINT,Key Radio Resource Control INTegrity
+K UPENC,Key User Plain ENCoding
+KDF,Key Derivation Function
+KSI ASME,Key Set Identifier Access Security Management Entity
+KSI,Key Set Identifier
+LAN,Local Area Network
+LTE,Long Term Evolution
+M TMSI,Mobile Temporary Mobile Subscriber Identity
+MAC,Medium Access Control
+MCC,Mobile Country Code
+MCCH,Multicast Control CHannel
+MCH,Multicast CHannel
+MIB,Master Information Block
+MIMO,Multiple Input Multiple Output
+MME,Mobility Management Entity
+MMEC,Mobility Management Entity Code
+MMEGI,MME Group Identifier
+MMEI,MME Identifier
+MNC,Mobile Network Code
+MSIN,Mobile Subscriber Identification Number
+MTCH,Multicast Traffic CHannel
+NAS MAC,NAS Message Authentication Code
+NAS SMC,NAS Security Mode Complete
+NAS,Non Access Stratum
+OFDM,Orthogonal Frequency Division Multiplexing
+OFDMA,Orthogonal FDMA
+PAPR,Peak to Average Power Ratio
+PBCH,Physical Broadcast CHannel
+PCCH,Paging Control CHannel
+PCFICH,Physical Control Format Indicator CHannel
+PCH,Paging CHannel
+PCI,Physical Cell ID
+PCRF,Policy and Charging Rules Function
+PDCCH,Physical Downlink Control CHannel
+PDCP,Packet Data Convergence Protocol
+PDN,Packet Data Network
+PDSCH,Physical Downlink Shared CHannel
+PDU,Protocol Data Unit
+PGW,PDN SAE Gateway
+PHICH,Physical Hybrid ARQ Indicator CHannel
+PLMN,Public Land Mobile Network
+PRACH,Physical Random Access CHannel
+PSS,Primary Synchronization Signal
+PUCCH,Physical Uplink Control CHannel
+PUSCH,Physical Uplink Shared CHannel
+QAM,Quadrature Amplitude Modulation
+QCI,QOS Class Identifier
+QOS,Quality Of Service
+QPSK,Quadrature Phase Shift Keying
+RA RNTI,Random Access Radio Network Temporary Identifier
+RACH,Random Access CHannel
+RAN,Radio Access Network
+RB,Resource Blocks
+RLC,Radio Link Control
+RNTI,Radio Network Temporary Identifier
+ROHC,RObust Header Compression
+RRC,Radio Resource Control
+RTP,Real Time Protocol
+S TMSI,SAE Temporary Mobile Subscriber Identity
+SC OFDMA,Single Carrier OFDMA
+SCH,Shared CHannel
+SCTP,Stream Control Transmission Protocol
+SDU,Service Data Unit
+SFN,Sub Frame Number
+SGW,Serving SAE Gateway
+SIB,Signal Information Block
+SIM,Subscriber Identity Module
+SIR,Signal to Interference Ratio
+SISO,Single Input Single Output
+SNIR,Signal to Noise and Interference Ratio
+SNR,Signal to Noise Ratio
+SPR,Subscriber Profile Repositories
+SQN,SeQuence Number
+SRS,Sounding Reference Signal
+SSS,Secondary Synchronization Signal
+TAC,Tracking Area Code
+TAI,Tracking Area Identity
+TCP,Transmission Control Protocol
+TDD,Time Division Duplexing
+TDMA,Time Division Multiple Access
+TEID,Tunnel Endpoint ID
+TTI,Transmission Time Interval
+UDP,User Datagram Protocol
+UE,User Equipment
+UL SCH,UpLink Shared CHannel
+USIM,Umts Subscriber Identity Module
+VOLTE,Voice Over LTE
+WLAN,Wireless LAN
+XRES,eXpected RESponse
