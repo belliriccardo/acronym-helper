@@ -20,7 +20,9 @@ CSMA/CD,CSMA with Collision Detection
 DCCH,Dedicated Control CHannel
 DL SCH,DownLink Shared CHannel
 DM RS,DeModulation Reference Signal
+DRB,Data Radio Bearer
 DTCH,Dedicated Traffic CHannel
+E RAB ID,EPS Radio Access Bearer ID
 E UTRAN,Evolved UMTS Terrestrial Radio Access Network
 EARFCN,E-UTRA Absolute Radio Frequency Channel Number
 ECGI,E-UTRAN Cell Global Identifier
@@ -133,6 +135,7 @@ TDD,Time Division Duplexing
 TDMA,Time Division Multiple Access
 TEID,Tunnel Endpoint ID
 TTI,Transmission Time Interval
+TTL,Time To Live
 UDP,User Datagram Protocol
 UE AMBR,UE Aggregate Maximum Bit Rate
 UE,User Equipment
