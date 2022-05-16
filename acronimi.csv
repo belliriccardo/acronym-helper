@@ -1,12 +1,16 @@
 4G,4th Generation
+AMBR,Aggregate Maximum Bit Rate
+APN AMBR,APN Aggregate Maximum Bit Rate
+APN,Access Point Number
+ARP,Allocation and Retention Priority
 ARQ,Automatic Repeat Request
 AUC,AUthentication Center
 AUTN,AUThentication Number
 BCCH,Broadcast Control CHannel
 BCH,Broadcast CHannel
 BS,Base Station
-C RNTI,Control Radio Network Temporary Identifier
 C RNTI,Cell Radio Network Temporary Identifier
+C RNTI,Control Radio Network Temporary Identifier
 CCCH,Common Control CHannel
 CDMA,Code Division Multiple Access
 CFI,Control Format Indicator
@@ -130,6 +134,7 @@ TDMA,Time Division Multiple Access
 TEID,Tunnel Endpoint ID
 TTI,Transmission Time Interval
 UDP,User Datagram Protocol
+UE AMBR,UE Aggregate Maximum Bit Rate
 UE,User Equipment
 UL SCH,UpLink Shared CHannel
 USIM,Umts Subscriber Identity Module

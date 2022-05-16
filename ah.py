@@ -37,7 +37,6 @@ def loadAcronymsFromFile(file_path: str, uniqueness_delimiter: str) -> dict:
 
 
 def main(args) -> None:
-
     clearscreen(args.noscroll)
 
     file_name = args.file
@@ -87,7 +86,7 @@ def main(args) -> None:
                 acr = acronyms[closest]
                 text = f'{typed} -> {closest.split(delimiter)[0]}: {acr}'
 
-                for close_one in sorted(close_ones, reverse=True)[1:show_closest_n+1]:
+                for close_one in sorted(close_ones, reverse=True)[1:show_closest_n + 1]:
                     close_k, close_v = close_one[1:]
                     whitespace = ' ' * len(f'{typed} ->')
                     text_extra += f'\n{whitespace} {close_k.split(delimiter)[0]} -> {close_v}'
@@ -111,7 +110,8 @@ if __name__ == '__main__':
     parser.add_argument('--col', type=str, required=False,
                         default='green', help='Colore della prima riga')
     parser.add_argument('--noscroll', type=bool, required=False,
-                        default=False, help='Pulire il terminale invece di farlo scorrere', action=argparse.BooleanOptionalAction)
+                        default=False, help='Pulire il terminale invece di farlo scorrere',
+                        action=argparse.BooleanOptionalAction)
     args = parser.parse_args()
 
     try:
