@@ -14,8 +14,8 @@ def similar(s_1: str, s_2: str) -> float:
 
 
 def isValidAsciiChar(c: int) -> bool:
-    # Lettere più spazio
-    return c >= 65 and c <= 90 or c >= 97 and c <= 122 or c >= 48 and c <= 57 or c == 32
+    # Lettere e numeri più spazio
+    return 65 <= c <= 90 or 97 <= c <= 122 or 48 <= c <= 57 or c == 32
 
 
 def clearscreen(no_scroll: bool = False) -> None:
