@@ -30,7 +30,7 @@ def loadAcronymsFromFile(file_path: str, uniqueness_delimiter: str) -> dict:
     with open(file_path) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         for (acronym, extended) in csv_reader:
-            acronym += uniqueness_delimiter + f'{random.randint(0, 10e8):09d}'
+            acronym += uniqueness_delimiter + f'{random.randint(0, 1_000_000_000):09d}'
             acronyms[acronym] = extended
 
     return acronyms
