@@ -109,9 +109,9 @@ if __name__ == '__main__':
                         help='File .csv dal quale prendere gli acronimi')
     parser.add_argument('--col', type=str, required=False,
                         default='green', help='Colore della prima riga')
-    parser.add_argument('--noscroll', type=bool, required=False,
+    parser.add_argument('--noscroll', required=False,
                         default=False, help='Pulire il terminale invece di farlo scorrere',
-                        action=argparse.BooleanOptionalAction)
+                        action='store_true')
     args = parser.parse_args()
 
     try:
