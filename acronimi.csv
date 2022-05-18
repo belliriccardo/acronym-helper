@@ -110,6 +110,7 @@ RLC,Radio Link Control
 RNTI,Radio Network Temporary Identifier
 ROHC,RObust Header Compression
 RRC,Radio Resource Control
+RSRP,Reference Signals Received Power
 RTP,Real Time Protocol
 S TMSI,SAE Temporary Mobile Subscriber Identity
 SC OFDMA,Single Carrier OFDMA
@@ -130,6 +131,7 @@ SRS,Sounding Reference Signal
 SSS,Secondary Synchronization Signal
 TAC,Tracking Area Code
 TAI,Tracking Area Identity
+TAU,Tracking Area Update
 TCP,Transmission Control Protocol
 TDD,Time Division Duplexing
 TDMA,Time Division Multiple Access
