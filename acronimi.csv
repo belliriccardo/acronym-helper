@@ -1,5 +1,7 @@
 4G,4th Generation
+5G,5th Generation
 AMBR,Aggregate Maximum Bit Rate
+API,Application Programming Interface
 APN AMBR,APN Aggregate Maximum Bit Rate
 APN,Access Point Number
 ARP,Allocation and Retention Priority
@@ -28,13 +30,16 @@ EARFCN,E-UTRA Absolute Radio Frequency Channel Number
 ECGI,E-UTRAN Cell Global Identifier
 ECI,E-UTRAN Cell Identifier
 ECM,EPS Connection Management
+EMBB,Enhanced Mobile BroadBand
 EMM,EPS Mobility Management
+EPC,Evolved Packet Core
 EPS,Evolved Packet System
 EUTRA,Evolved Universal Terrestrial Radio Access
 FDD,Frequency Division Duplexing
 FDE,Frequency Domain Equalization
 FDMA,Frequency Division Multiple Access
 FEC,Forward Error Correction
+FFR,Fractional Frequency Reuse
 GBR,Guaranteed Bit Rate
 GPRS,General Packet Radio Service
 GTP C,GPRS Tunneling Protocol Control
@@ -43,11 +48,14 @@ GUMMEI,Globally Unique MME Identifier
 GUTI,Globally Unique UE Identity
 HARQ,Hybrid ARQ
 HSS,Home Subscribing Service
+HTTP,HyperText Transfer Protocol
 ICI,Inter Carrier Interference
 IK,Integrity Key
 IMS,IP Multimedia Signalling
 IMSI,International Mobile Subscriber Identity
+IMT,International Mobile Technology
 IP,Internet Protocol
+ITU,International Telecommunication Union
 K ASME,Key Access Security Management Entity
 K ENB,Key ENode B
 K NASENC,Key Non Access Stratum ENCoding
@@ -65,18 +73,21 @@ MAC,Medium Access Control
 MCC,Mobile Country Code
 MCCH,Multicast Control CHannel
 MCH,Multicast CHannel
+MCS,Modulation and Coding Scheme
 MIB,Master Information Block
 MIMO,Multiple Input Multiple Output
 MME,Mobility Management Entity
 MMEC,Mobility Management Entity Code
 MMEGI,MME Group Identifier
 MMEI,MME Identifier
+MMTC,Massive Machine Type Communications
 MNC,Mobile Network Code
 MSIN,Mobile Subscriber Identification Number
 MTCH,Multicast Traffic CHannel
 NAS MAC,NAS Message Authentication Code
 NAS SMC,NAS Security Mode Complete
 NAS,Non Access Stratum
+NFV,Network Function Virtualization
 OFDM,Orthogonal Frequency Division Multiplexing
 OFDMA,Orthogonal FDMA
 PAPR,Peak to Average Power Ratio
@@ -106,6 +117,7 @@ RA RNTI,Random Access Radio Network Temporary Identifier
 RACH,Random Access CHannel
 RAN,Radio Access Network
 RB,Resource Blocks
+REST,REpresentational State Transfer
 RLC,Radio Link Control
 RNTI,Radio Network Temporary Identifier
 ROHC,RObust Header Compression
@@ -116,8 +128,10 @@ S TMSI,SAE Temporary Mobile Subscriber Identity
 SC OFDMA,Single Carrier OFDMA
 SCH,Shared CHannel
 SCTP,Stream Control Transmission Protocol
+SDN,Software Defined Networking
 SDU,Service Data Unit
 SFN,Sub Frame Number
+SFR,Soft Frequency Reuse
 SGW,Serving SAE Gateway
 SIB,Signal Information Block
 SIM,Subscriber Identity Module
@@ -142,6 +156,7 @@ UDP,User Datagram Protocol
 UE AMBR,UE Aggregate Maximum Bit Rate
 UE,User Equipment
 UL SCH,UpLink Shared CHannel
+URLLC,Ultra Reliable and Low Latency Communications
 USIM,Umts Subscriber Identity Module
 VOLTE,Voice Over LTE
 WLAN,Wireless LAN
