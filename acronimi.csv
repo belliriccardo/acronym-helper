@@ -1,40 +1,57 @@
 4G,4th Generation
 5G,5th Generation
+5GC,5G Core network
+AAU,Active Antenna Unit
+ACK,Acknowledgment
+AF,Application Function
 AMBR,Aggregate Maximum Bit Rate
+AMF,Access and Mobility management Function
 API,Application Programming Interface
 APN AMBR,APN Aggregate Maximum Bit Rate
 APN,Access Point Number
 ARP,Allocation and Retention Priority
 ARQ,Automatic Repeat Request
+ASIC,Application Specific Integrated Circuit
 AUC,AUthentication Center
+AUSF,Authentication Server Function
 AUTN,AUThentication Number
+BBU,BaseBand Unit
 BCCH,Broadcast Control CHannel
 BCH,Broadcast CHannel
 BS,Base Station
+C RAN,Centralized RAN
 C RNTI,Cell Radio Network Temporary Identifier
 C RNTI,Control Radio Network Temporary Identifier
 CCCH,Common Control CHannel
 CDMA,Code Division Multiple Access
 CFI,Control Format Indicator
 CK,Ciphering Key
+CPRI,Common Public Radio Interface
 CSMA,Carrier Sense Multiple Access
 CSMA/CD,CSMA with Collision Detection
+CSMF,Communication Service Management Function
+CU,Centralized Unit
+CUPS,Control and User Plan Separation
 DCCH,Dedicated Control CHannel
 DL SCH,DownLink Shared CHannel
 DM RS,DeModulation Reference Signal
+DN,Data Network
 DRB,Data Radio Bearer
 DTCH,Dedicated Traffic CHannel
+DU,Distributed Unit
 E RAB ID,EPS Radio Access Bearer ID
 E UTRAN,Evolved UMTS Terrestrial Radio Access Network
 EARFCN,E-UTRA Absolute Radio Frequency Channel Number
 ECGI,E-UTRAN Cell Global Identifier
 ECI,E-UTRAN Cell Identifier
 ECM,EPS Connection Management
+ECPRI,Enhanched Common Public Radio Interface
 EMBB,Enhanced Mobile BroadBand
 EMM,EPS Mobility Management
 EPC,Evolved Packet Core
 EPS,Evolved Packet System
 EUTRA,Evolved Universal Terrestrial Radio Access
+F OFDM,Filtered OFDM
 FDD,Frequency Division Duplexing
 FDE,Frequency Domain Equalization
 FDMA,Frequency Division Multiple Access
@@ -42,6 +59,7 @@ FEC,Forward Error Correction
 FFR,Fractional Frequency Reuse
 GBR,Guaranteed Bit Rate
 GPRS,General Packet Radio Service
+GST,Generic Slice Template
 GTP C,GPRS Tunneling Protocol Control
 GTP U,GPRS Tunneling Protocol User plain
 GUMMEI,Globally Unique MME Identifier
@@ -67,6 +85,7 @@ KDF,Key Derivation Function
 KSI ASME,Key Set Identifier Access Security Management Entity
 KSI,Key Set Identifier
 LAN,Local Area Network
+LDPC,Low Density Parity Check
 LTE,Long Term Evolution
 M TMSI,Mobile Temporary Mobile Subscriber Identity
 MAC,Medium Access Control
@@ -84,15 +103,26 @@ MMTC,Massive Machine Type Communications
 MNC,Mobile Network Code
 MSIN,Mobile Subscriber Identification Number
 MTCH,Multicast Traffic CHannel
+NACK,Negative Acknowledgment
 NAS MAC,NAS Message Authentication Code
 NAS SMC,NAS Security Mode Complete
 NAS,Non Access Stratum
+NEF,Network Exposure Function
+NEST,NEtwork Slice Template
 NFV,Network Function Virtualization
+NG RAN,Next Generation Radio Access Network
+NRF,Network Repository Function
+NSI,Network Slice Instance
+NSMF,Network Slice Management Function
+NSSAI,Network Slice Selection Assistance Information
+NSSF,Network Slice Selection Function
+NSSMF,Network Slice Subnet Management Function
 OFDM,Orthogonal Frequency Division Multiplexing
 OFDMA,Orthogonal FDMA
 PAPR,Peak to Average Power Ratio
 PBCH,Physical Broadcast CHannel
 PCCH,Paging Control CHannel
+PCF,Policy Control Function
 PCFICH,Physical Control Format Indicator CHannel
 PCH,Paging CHannel
 PCI,Physical Cell ID
@@ -100,6 +130,7 @@ PCRF,Policy and Charging Rules Function
 PDCCH,Physical Downlink Control CHannel
 PDCP,Packet Data Convergence Protocol
 PDN,Packet Data Network
+PDR,Packet Detection Rule
 PDSCH,Physical Downlink Shared CHannel
 PDU,Protocol Data Unit
 PGW,PDN SAE Gateway
@@ -118,16 +149,22 @@ RACH,Random Access CHannel
 RAN,Radio Access Network
 RB,Resource Blocks
 REST,REpresentational State Transfer
+RFU,Radio Frequency Unit
 RLC,Radio Link Control
 RNTI,Radio Network Temporary Identifier
 ROHC,RObust Header Compression
 RRC,Radio Resource Control
+RRH,Remote Radio Head
+RRU,Remote Radio Unit
 RSRP,Reference Signals Received Power
 RTP,Real Time Protocol
 S TMSI,SAE Temporary Mobile Subscriber Identity
+SBI,Service Based Interface
 SC OFDMA,Single Carrier OFDMA
 SCH,Shared CHannel
 SCTP,Stream Control Transmission Protocol
+SD,Slice Differentiator
+SDAP,Service Data Adaptation Protocol
 SDN,Software Defined Networking
 SDU,Service Data Unit
 SFN,Sub Frame Number
@@ -137,12 +174,15 @@ SIB,Signal Information Block
 SIM,Subscriber Identity Module
 SIR,Signal to Interference Ratio
 SISO,Single Input Single Output
+SMF,Session Management Function
 SNIR,Signal to Noise and Interference Ratio
 SNR,Signal to Noise Ratio
 SPR,Subscriber Profile Repositories
 SQN,SeQuence Number
 SRS,Sounding Reference Signal
 SSS,Secondary Synchronization Signal
+SST,Slice Service Type
+SUL,Supplementary UpLink
 TAC,Tracking Area Code
 TAI,Tracking Area Identity
 TAU,Tracking Area Update
@@ -152,57 +192,17 @@ TDMA,Time Division Multiple Access
 TEID,Tunnel Endpoint ID
 TTI,Transmission Time Interval
 TTL,Time To Live
+UDM,Unified Data Management
 UDP,User Datagram Protocol
 UE AMBR,UE Aggregate Maximum Bit Rate
 UE,User Equipment
 UL SCH,UpLink Shared CHannel
+UPF,User Plane Function
 URLLC,Ultra Reliable and Low Latency Communications
 USIM,Umts Subscriber Identity Module
+USU,Unified Switching Unit
+VBS,Virtual Base Station
 VOLTE,Voice Over LTE
+WI FI,WIreless FIdelity
 WLAN,Wireless LAN
 XRES,eXpected RESponse
-SUL,Supplementary UpLink
-LDPC,Low Density Parity Check
-F OFDM,Filtered OFDM
-ACK,Acknowledgment
-NACK,Negative Acknowledgment
-NG RAN,Next Generation Radio Access Network
-CUPS,Control and User Plan Separation
-AUSF,Authentication Server Function
-PCF,Policy Control Function
-AMF,Access and Mobility management Function
-SMF,Session Management Function
-5GC,5G Core network
-UPF,User Plane Function
-NSSF,Network Slice Selection Function
-NEF,Network Exposure Function
-NRF,Network Repository Function
-UDM,Unified Data Management
-AF,Application Function
-DN,Data Network
-SBI,Service Based Interface
-PDR,Packet Detection Rule
-NSSAI,Network Slice Selection Assistance Information
-SD,Slice Differentiator
-SST,Slice Service Type
-GST,Generic Slice Template
-NEST,NEtwork Slice Template
-NSI,Network Slice Instance
-CSMF,Communication Service Management Function
-NSMF,Network Slice Management Function
-NSSMF,Network Slice Subnet Management Function
-SDAP,Service Data Adaptation Protocol
-DU,Distributed Unit
-CU,Centralized Unit
-RRH,Remote Radio Head
-BBU,BaseBand Unit
-RRU,Remote Radio Unit
-RFU,Radio Frequency Unit
-C RAN,Centralized RAN
-AAU,Active Antenna Unit
-CPRI,Common Public Radio Interface
-ECPRI,Enhanched Common Public Radio Interface
-USU,Unified Switching Unit
-ASIC,Application Specific Integrated Circuit
-VBS,Virtual Base Station
-WI FI,WIreless FIdelity
