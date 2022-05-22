@@ -161,3 +161,48 @@ USIM,Umts Subscriber Identity Module
 VOLTE,Voice Over LTE
 WLAN,Wireless LAN
 XRES,eXpected RESponse
+SUL,Supplementary UpLink
+LDPC,Low Density Parity Check
+F OFDM,Filtered OFDM
+ACK,Acknowledgment
+NACK,Negative Acknowledgment
+NG RAN,Next Generation Radio Access Network
+CUPS,Control and User Plan Separation
+AUSF,Authentication Server Function
+PCF,Policy Control Function
+AMF,Access and Mobility management Function
+SMF,Session Management Function
+5GC,5G Core network
+UPF,User Plane Function
+NSSF,Network Slice Selection Function
+NEF,Network Exposure Function
+NRF,Network Repository Function
+UDM,Unified Data Management
+AF,Application Function
+DN,Data Network
+SBI,Service Based Interface
+PDR,Packet Detection Rule
+NSSAI,Network Slice Selection Assistance Information
+SD,Slice Differentiator
+SST,Slice Service Type
+GST,Generic Slice Template
+NEST,NEtwork Slice Template
+NSI,Network Slice Instance
+CSMF,Communication Service Management Function
+NSMF,Network Slice Management Function
+NSSMF,Network Slice Subnet Management Function
+SDAP,Service Data Adaptation Protocol
+DU,Distributed Unit
+CU,Centralized Unit
+RRH,Remote Radio Head
+BBU,BaseBand Unit
+RRU,Remote Radio Unit
+RFU,Radio Frequency Unit
+C RAN,Centralized RAN
+AAU,Active Antenna Unit
+CPRI,Common Public Radio Interface
+ECPRI,Enhanched Common Public Radio Interface
+USU,Unified Switching Unit
+ASIC,Application Specific Integrated Circuit
+VBS,Virtual Base Station
+WI FI,WIreless FIdelity

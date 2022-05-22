@@ -104,7 +104,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description='Mostra acronimi estesi e simili.')
     parser.add_argument('--show', type=int, required=False,
-                        default=5, help='Numero di acronimi simili da mostrare in coda')
+                        default=6, help='Numero di acronimi simili da mostrare in coda')
     parser.add_argument('--file', type=str, required=True,
                         help='File .csv dal quale prendere gli acronimi')
     parser.add_argument('--col', type=str, required=False,
