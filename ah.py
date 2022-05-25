@@ -43,7 +43,6 @@ def main(args) -> None:
     show_closest_n = args.show
 
     typed = ""
-    closest = ""
 
     delimiter = '_'
 

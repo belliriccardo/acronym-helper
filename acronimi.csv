@@ -6,6 +6,7 @@ ACK,Acknowledgment
 AF,Application Function
 AMBR,Aggregate Maximum Bit Rate
 AMF,Access and Mobility management Function
+AP,Access Point
 API,Application Programming Interface
 APN AMBR,APN Aggregate Maximum Bit Rate
 APN,Access Point Number
@@ -18,7 +19,10 @@ AUTN,AUThentication Number
 BBU,BaseBand Unit
 BCCH,Broadcast Control CHannel
 BCH,Broadcast CHannel
+BPSK,Binary Phase Shift Keying
 BS,Base Station
+BSS,Basic Service Set
+BSSID,Basic Service Set IDentifier
 C RAN,Centralized RAN
 C RNTI,Cell Radio Network Temporary Identifier
 C RNTI,Control Radio Network Temporary Identifier
@@ -27,16 +31,22 @@ CDMA,Code Division Multiple Access
 CFI,Control Format Indicator
 CK,Ciphering Key
 CPRI,Common Public Radio Interface
+CRC,Cyclic Redundancy Check
 CSMA,Carrier Sense Multiple Access
 CSMA/CD,CSMA with Collision Detection
 CSMF,Communication Service Management Function
 CU,Centralized Unit
 CUPS,Control and User Plan Separation
+DA,Destination Address
+DBPSK,Differential Binary Phase Shift Keying
 DCCH,Dedicated Control CHannel
 DL SCH,DownLink Shared CHannel
 DM RS,DeModulation Reference Signal
 DN,Data Network
+DQPSK,Differential Quadrature Phase Shift Keying
 DRB,Data Radio Bearer
+DS,Distribution System
+DSSS,Direct Sequence Spread Spectrum
 DTCH,Dedicated Traffic CHannel
 DU,Distributed Unit
 E RAB ID,EPS Radio Access Bearer ID
@@ -50,13 +60,16 @@ EMBB,Enhanced Mobile BroadBand
 EMM,EPS Mobility Management
 EPC,Evolved Packet Core
 EPS,Evolved Packet System
+ESS,Extended Service Set
 EUTRA,Evolved Universal Terrestrial Radio Access
 F OFDM,Filtered OFDM
+FCS,Frame Check Sequence
 FDD,Frequency Division Duplexing
 FDE,Frequency Domain Equalization
 FDMA,Frequency Division Multiple Access
 FEC,Forward Error Correction
 FFR,Fractional Frequency Reuse
+FHSS,Frequency Hopping Spread Spectrum
 GBR,Guaranteed Bit Rate
 GPRS,General Packet Radio Service
 GST,Generic Slice Template
@@ -65,14 +78,18 @@ GTP U,GPRS Tunneling Protocol User plain
 GUMMEI,Globally Unique MME Identifier
 GUTI,Globally Unique UE Identity
 HARQ,Hybrid ARQ
+HR DSSS,High Rate Direct Sequence Spread Spectrum
 HSS,Home Subscribing Service
 HTTP,HyperText Transfer Protocol
+IBSS,Independent Base Service Set
 ICI,Inter Carrier Interference
+IE,Information Element
 IK,Integrity Key
 IMS,IP Multimedia Signalling
 IMSI,International Mobile Subscriber Identity
 IMT,International Mobile Technology
 IP,Internet Protocol
+ISM,Industrial Scientific and Medical
 ITU,International Telecommunication Union
 K ASME,Key Access Security Management Entity
 K ENB,Key ENode B
@@ -86,6 +103,7 @@ KSI ASME,Key Set Identifier Access Security Management Entity
 KSI,Key Set Identifier
 LAN,Local Area Network
 LDPC,Low Density Parity Check
+LLC,Logical Link Control
 LTE,Long Term Evolution
 M TMSI,Mobile Temporary Mobile Subscriber Identity
 MAC,Medium Access Control
@@ -101,6 +119,7 @@ MMEGI,MME Group Identifier
 MMEI,MME Identifier
 MMTC,Massive Machine Type Communications
 MNC,Mobile Network Code
+MPDU,MAC Protocol Data Unit
 MSIN,Mobile Subscriber Identification Number
 MTCH,Multicast Traffic CHannel
 NACK,Negative Acknowledgment
@@ -135,6 +154,7 @@ PDSCH,Physical Downlink Shared CHannel
 PDU,Protocol Data Unit
 PGW,PDN SAE Gateway
 PHICH,Physical Hybrid ARQ Indicator CHannel
+PLCP,Physical Layer Convergence Procedure
 PLMN,Public Land Mobile Network
 PRACH,Physical Random Access CHannel
 PSS,Primary Synchronization Signal
@@ -159,6 +179,8 @@ RRU,Remote Radio Unit
 RSRP,Reference Signals Received Power
 RTP,Real Time Protocol
 S TMSI,SAE Temporary Mobile Subscriber Identity
+SA,Source Address
+SAP,Service Access Point
 SBI,Service Based Interface
 SC OFDMA,Single Carrier OFDMA
 SCH,Shared CHannel
@@ -167,6 +189,7 @@ SD,Slice Differentiator
 SDAP,Service Data Adaptation Protocol
 SDN,Software Defined Networking
 SDU,Service Data Unit
+SFD,Start of Frame Delimiter
 SFN,Sub Frame Number
 SFR,Soft Frequency Reuse
 SGW,Serving SAE Gateway
@@ -175,11 +198,13 @@ SIM,Subscriber Identity Module
 SIR,Signal to Interference Ratio
 SISO,Single Input Single Output
 SMF,Session Management Function
+SNAP,SubNetwork Access Protocol
 SNIR,Signal to Noise and Interference Ratio
 SNR,Signal to Noise Ratio
 SPR,Subscriber Profile Repositories
 SQN,SeQuence Number
 SRS,Sounding Reference Signal
+SSID,Service Set IDentifier
 SSS,Secondary Synchronization Signal
 SST,Slice Service Type
 SUL,Supplementary UpLink
@@ -190,6 +215,7 @@ TCP,Transmission Control Protocol
 TDD,Time Division Duplexing
 TDMA,Time Division Multiple Access
 TEID,Tunnel Endpoint ID
+TLV,Type Length Value
 TTI,Transmission Time Interval
 TTL,Time To Live
 UDM,Unified Data Management
@@ -202,7 +228,9 @@ URLLC,Ultra Reliable and Low Latency Communications
 USIM,Umts Subscriber Identity Module
 USU,Unified Switching Unit
 VBS,Virtual Base Station
+VOIP,Voice Over IP
 VOLTE,Voice Over LTE
-WI FI,WIreless FIdelity
+WIFI,WIreless FIdelity
 WLAN,Wireless LAN
+WMAC,Wireless Media Access Controller
 XRES,eXpected RESponse
