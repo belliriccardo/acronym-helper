@@ -32,14 +32,16 @@ CFI,Control Format Indicator
 CK,Ciphering Key
 CPRI,Common Public Radio Interface
 CRC,Cyclic Redundancy Check
+CSMA CD,CSMA with Collision Detection
 CSMA,Carrier Sense Multiple Access
-CSMA/CD,CSMA with Collision Detection
 CSMF,Communication Service Management Function
 CU,Centralized Unit
 CUPS,Control and User Plan Separation
 DA,Destination Address
 DBPSK,Differential Binary Phase Shift Keying
 DCCH,Dedicated Control CHannel
+DCF,Distributed Coordination Function
+DIFS,DCF Inter Frame Spacing
 DL SCH,DownLink Shared CHannel
 DM RS,DeModulation Reference Signal
 DN,Data Network
@@ -56,6 +58,7 @@ ECGI,E-UTRAN Cell Global Identifier
 ECI,E-UTRAN Cell Identifier
 ECM,EPS Connection Management
 ECPRI,Enhanched Common Public Radio Interface
+EDCA,Enhanced Distributed Channel Access
 EMBB,Enhanced Mobile BroadBand
 EMM,EPS Mobility Management
 EPC,Evolved Packet Core
@@ -78,12 +81,15 @@ GTP U,GPRS Tunneling Protocol User plain
 GUMMEI,Globally Unique MME Identifier
 GUTI,Globally Unique UE Identity
 HARQ,Hybrid ARQ
+HCCA,HCF Controlled Channel Access
+HCF,Hybrid Coordination Function
 HR DSSS,High Rate Direct Sequence Spread Spectrum
 HSS,Home Subscribing Service
 HTTP,HyperText Transfer Protocol
 IBSS,Independent Base Service Set
 ICI,Inter Carrier Interference
 IE,Information Element
+IFS,Inter Frame Space
 IK,Integrity Key
 IMS,IP Multimedia Signalling
 IMSI,International Mobile Subscriber Identity
@@ -126,6 +132,7 @@ NACK,Negative Acknowledgment
 NAS MAC,NAS Message Authentication Code
 NAS SMC,NAS Security Mode Complete
 NAS,Non Access Stratum
+NAV,Network Allocation Vector
 NEF,Network Exposure Function
 NEST,NEtwork Slice Template
 NFV,Network Function Virtualization
@@ -141,6 +148,7 @@ OFDMA,Orthogonal FDMA
 PAPR,Peak to Average Power Ratio
 PBCH,Physical Broadcast CHannel
 PCCH,Paging Control CHannel
+PCF,Point Coordination Function
 PCF,Policy Control Function
 PCFICH,Physical Control Format Indicator CHannel
 PCH,Paging CHannel
@@ -154,8 +162,9 @@ PDSCH,Physical Downlink Shared CHannel
 PDU,Protocol Data Unit
 PGW,PDN SAE Gateway
 PHICH,Physical Hybrid ARQ Indicator CHannel
-PLCP,Physical Layer Convergence Procedure
+PLCP,Physical Layer Convergence Protocol
 PLMN,Public Land Mobile Network
+PMD,Physical Medium Dependent
 PRACH,Physical Random Access CHannel
 PSS,Primary Synchronization Signal
 PUCCH,Physical Uplink Control CHannel
@@ -194,6 +203,7 @@ SFN,Sub Frame Number
 SFR,Soft Frequency Reuse
 SGW,Serving SAE Gateway
 SIB,Signal Information Block
+SIFS,Short Inter Frame Space
 SIM,Subscriber Identity Module
 SIR,Signal to Interference Ratio
 SISO,Single Input Single Output
