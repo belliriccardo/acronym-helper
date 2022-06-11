@@ -4,6 +4,7 @@
 AAU,Active Antenna Unit
 ACK,Acknowledgment
 AF,Application Function
+AID,Association ID
 AMBR,Aggregate Maximum Bit Rate
 AMF,Access and Mobility management Function
 AP,Access Point
@@ -35,8 +36,10 @@ CRC,Cyclic Redundancy Check
 CSMA CD,CSMA with Collision Detection
 CSMA,Carrier Sense Multiple Access
 CSMF,Communication Service Management Function
+CTS,Clear To Send
 CU,Centralized Unit
 CUPS,Control and User Plan Separation
+CW,Contention Window
 DA,Destination Address
 DBPSK,Differential Binary Phase Shift Keying
 DCCH,Dedicated Control CHannel
@@ -59,6 +62,7 @@ ECI,E-UTRAN Cell Identifier
 ECM,EPS Connection Management
 ECPRI,Enhanched Common Public Radio Interface
 EDCA,Enhanced Distributed Channel Access
+EIFS,Extended Inter Frame Space
 EMBB,Enhanced Mobile BroadBand
 EMM,EPS Mobility Management
 EPC,Evolved Packet Core
@@ -71,6 +75,7 @@ FDD,Frequency Division Duplexing
 FDE,Frequency Domain Equalization
 FDMA,Frequency Division Multiple Access
 FEC,Forward Error Correction
+FF,Fixed Fields
 FFR,Fractional Frequency Reuse
 FHSS,Frequency Hopping Spread Spectrum
 GBR,Guaranteed Bit Rate
@@ -187,6 +192,7 @@ RRH,Remote Radio Head
 RRU,Remote Radio Unit
 RSRP,Reference Signals Received Power
 RTP,Real Time Protocol
+RTS,Request To Send
 S TMSI,SAE Temporary Mobile Subscriber Identity
 SA,Source Address
 SAP,Service Access Point
@@ -221,11 +227,14 @@ SUL,Supplementary UpLink
 TAC,Tracking Area Code
 TAI,Tracking Area Identity
 TAU,Tracking Area Update
+TBTT,Target Beacon Transmission Time
 TCP,Transmission Control Protocol
 TDD,Time Division Duplexing
 TDMA,Time Division Multiple Access
 TEID,Tunnel Endpoint ID
+TIM,Traffic Indication Map
 TLV,Type Length Value
+TSF,Timing Synchronization Function
 TTI,Transmission Time Interval
 TTL,Time To Live
 UDM,Unified Data Management
