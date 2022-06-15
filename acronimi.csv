@@ -1,10 +1,15 @@
 4G,4th Generation
 5G,5th Generation
 5GC,5G Core network
+A MPDU,Aggregated Message Protocol Data Unit
+A MSDU,Aggregated MAC Service Data Units
 AAU,Active Antenna Unit
 ACK,Acknowledgment
+ADDBA,Add Block Ack
 AF,Application Function
 AID,Association ID
+AIFS,Arbitration InterFrame Spacing
+AIFSN,Arbitration InterFrame Spacing Number
 AMBR,Aggregate Maximum Bit Rate
 AMF,Access and Mobility management Function
 AP,Access Point
@@ -44,6 +49,7 @@ DA,Destination Address
 DBPSK,Differential Binary Phase Shift Keying
 DCCH,Dedicated Control CHannel
 DCF,Distributed Coordination Function
+DHCP,Dynamic Host Configuration Protocol
 DIFS,DCF Inter Frame Spacing
 DL SCH,DownLink Shared CHannel
 DM RS,DeModulation Reference Signal
@@ -67,6 +73,7 @@ EMBB,Enhanced Mobile BroadBand
 EMM,EPS Mobility Management
 EPC,Evolved Packet Core
 EPS,Evolved Packet System
+ERP,Extended Rate Protection
 ESS,Extended Service Set
 EUTRA,Evolved Universal Terrestrial Radio Access
 F OFDM,Filtered OFDM
@@ -90,6 +97,7 @@ HCCA,HCF Controlled Channel Access
 HCF,Hybrid Coordination Function
 HR DSSS,High Rate Direct Sequence Spread Spectrum
 HSS,Home Subscribing Service
+HT,High Throughput
 HTTP,HyperText Transfer Protocol
 IBSS,Independent Base Service Set
 ICI,Inter Carrier Interference
@@ -131,6 +139,8 @@ MMEI,MME Identifier
 MMTC,Massive Machine Type Communications
 MNC,Mobile Network Code
 MPDU,MAC Protocol Data Unit
+MPDU,Message Protocol Data Unit
+MSDU,MAC Service Data Units
 MSIN,Mobile Subscriber Identification Number
 MTCH,Multicast Traffic CHannel
 NACK,Negative Acknowledgment
@@ -158,6 +168,7 @@ PCF,Policy Control Function
 PCFICH,Physical Control Format Indicator CHannel
 PCH,Paging CHannel
 PCI,Physical Cell ID
+PCO,Phased Coexistence Operation
 PCRF,Policy and Charging Rules Function
 PDCCH,Physical Downlink Control CHannel
 PDCP,Packet Data Convergence Protocol
@@ -167,10 +178,13 @@ PDSCH,Physical Downlink Shared CHannel
 PDU,Protocol Data Unit
 PGW,PDN SAE Gateway
 PHICH,Physical Hybrid ARQ Indicator CHannel
+PIFS,PCF Inter Frame Space
 PLCP,Physical Layer Convergence Protocol
 PLMN,Public Land Mobile Network
 PMD,Physical Medium Dependent
+POE,Power Over Ethernet
 PRACH,Physical Random Access CHannel
+PSDU,PLCP Service Data Unit
 PSS,Primary Synchronization Signal
 PUCCH,Physical Uplink Control CHannel
 PUSCH,Physical Uplink Shared CHannel
@@ -179,11 +193,14 @@ QCI,QOS Class Identifier
 QOS,Quality Of Service
 QPSK,Quadrature Phase Shift Keying
 RA RNTI,Random Access Radio Network Temporary Identifier
+RA,Receiver Address
 RACH,Random Access CHannel
 RAN,Radio Access Network
 RB,Resource Blocks
+RDG,Revrese Direction Grant
 REST,REpresentational State Transfer
 RFU,Radio Frequency Unit
+RIFS,Reduced Inter Frame Space
 RLC,Radio Link Control
 RNTI,Radio Network Temporary Identifier
 ROHC,RObust Header Compression
@@ -202,6 +219,7 @@ SCH,Shared CHannel
 SCTP,Stream Control Transmission Protocol
 SD,Slice Differentiator
 SDAP,Service Data Adaptation Protocol
+SDM,Spatial Division Multiplexing
 SDN,Software Defined Networking
 SDU,Service Data Unit
 SFD,Start of Frame Delimiter
@@ -224,6 +242,7 @@ SSID,Service Set IDentifier
 SSS,Secondary Synchronization Signal
 SST,Slice Service Type
 SUL,Supplementary UpLink
+TA,Transmitter Address
 TAC,Tracking Area Code
 TAI,Tracking Area Identity
 TAU,Tracking Area Update
@@ -232,16 +251,20 @@ TCP,Transmission Control Protocol
 TDD,Time Division Duplexing
 TDMA,Time Division Multiple Access
 TEID,Tunnel Endpoint ID
+TID,Traffic ID
 TIM,Traffic Indication Map
 TLV,Type Length Value
+TS,Traffic Stream
 TSF,Timing Synchronization Function
 TTI,Transmission Time Interval
 TTL,Time To Live
+TXOP,Transmission Opportunity
 UDM,Unified Data Management
 UDP,User Datagram Protocol
 UE AMBR,UE Aggregate Maximum Bit Rate
 UE,User Equipment
 UL SCH,UpLink Shared CHannel
+UP,User Priority
 UPF,User Plane Function
 URLLC,Ultra Reliable and Low Latency Communications
 USIM,Umts Subscriber Identity Module
