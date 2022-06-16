@@ -3,9 +3,11 @@
 5GC,5G Core network
 A MPDU,Aggregated Message Protocol Data Unit
 A MSDU,Aggregated MAC Service Data Units
+AAN,Authentication Algorithm Number
 AAU,Active Antenna Unit
 ACK,Acknowledgment
 ADDBA,Add Block Ack
+AES,Advanced Encryption Standard
 AF,Application Function
 AID,Association ID
 AIFS,Arbitration InterFrame Spacing
@@ -62,6 +64,8 @@ DTCH,Dedicated Traffic CHannel
 DU,Distributed Unit
 E RAB ID,EPS Radio Access Bearer ID
 E UTRAN,Evolved UMTS Terrestrial Radio Access Network
+EAP,Extensible Authentication Protocol
+EAPOL,EAP Over LAN
 EARFCN,E-UTRA Absolute Radio Frequency Channel Number
 ECGI,E-UTRAN Cell Global Identifier
 ECI,E-UTRAN Cell Identifier
@@ -88,6 +92,7 @@ FHSS,Frequency Hopping Spread Spectrum
 GBR,Guaranteed Bit Rate
 GPRS,General Packet Radio Service
 GST,Generic Slice Template
+GTK,Group Temporary Key
 GTP C,GPRS Tunneling Protocol Control
 GTP U,GPRS Tunneling Protocol User plain
 GUMMEI,Globally Unique MME Identifier
@@ -107,6 +112,7 @@ IK,Integrity Key
 IMS,IP Multimedia Signalling
 IMSI,International Mobile Subscriber Identity
 IMT,International Mobile Technology
+IOT,Internet Of Things
 IP,Internet Protocol
 ISM,Industrial Scientific and Medical
 ITU,International Telecommunication Union
@@ -117,11 +123,14 @@ K NASINT,Key Non Access Stratum INTegrity
 K RRCENC,Key Radio Resource Control ENCoding
 K RRCINT,Key Radio Resource Control INTegrity
 K UPENC,Key User Plain ENCoding
+KCK,Key Confirmation Key
 KDF,Key Derivation Function
+KEK,Key Encryption Key
 KSI ASME,Key Set Identifier Access Security Management Entity
 KSI,Key Set Identifier
 LAN,Local Area Network
 LDPC,Low Density Parity Check
+LEAP,Lightweight Extensible Authentication Protocol
 LLC,Logical Link Control
 LTE,Long Term Evolution
 M TMSI,Mobile Temporary Mobile Subscriber Identity
@@ -131,6 +140,7 @@ MCCH,Multicast Control CHannel
 MCH,Multicast CHannel
 MCS,Modulation and Coding Scheme
 MIB,Master Information Block
+MIC,Message Integrity Check
 MIMO,Multiple Input Multiple Output
 MME,Mobility Management Entity
 MMEC,Mobility Management Entity Code
@@ -140,8 +150,10 @@ MMTC,Massive Machine Type Communications
 MNC,Mobile Network Code
 MPDU,MAC Protocol Data Unit
 MPDU,Message Protocol Data Unit
+MQTT,Message Queue Telemetry Transport
 MSDU,MAC Service Data Units
 MSIN,Mobile Subscriber Identification Number
+MSK,Master Session Key
 MTCH,Multicast Traffic CHannel
 NACK,Negative Acknowledgment
 NAS MAC,NAS Message Authentication Code
@@ -176,16 +188,20 @@ PDN,Packet Data Network
 PDR,Packet Detection Rule
 PDSCH,Physical Downlink Shared CHannel
 PDU,Protocol Data Unit
+PEAP,Protected Extensible Authentication Protocol
 PGW,PDN SAE Gateway
 PHICH,Physical Hybrid ARQ Indicator CHannel
 PIFS,PCF Inter Frame Space
 PLCP,Physical Layer Convergence Protocol
 PLMN,Public Land Mobile Network
 PMD,Physical Medium Dependent
+PMK,Pairwise Master Key
 POE,Power Over Ethernet
 PRACH,Physical Random Access CHannel
 PSDU,PLCP Service Data Unit
+PSK,Pre Shared Key
 PSS,Primary Synchronization Signal
+PTK,Pairwise Transparent Key
 PUCCH,Physical Uplink Control CHannel
 PUSCH,Physical Uplink Shared CHannel
 QAM,Quadrature Amplitude Modulation
@@ -207,6 +223,8 @@ ROHC,RObust Header Compression
 RRC,Radio Resource Control
 RRH,Remote Radio Head
 RRU,Remote Radio Unit
+RSN,Robust Security Network
+RSNA,Robust Security Network Association
 RSRP,Reference Signals Received Power
 RTP,Real Time Protocol
 RTS,Request To Send
@@ -235,10 +253,12 @@ SMF,Session Management Function
 SNAP,SubNetwork Access Protocol
 SNIR,Signal to Noise and Interference Ratio
 SNR,Signal to Noise Ratio
+SOAP,Simple Object Access Protocol
 SPR,Subscriber Profile Repositories
 SQN,SeQuence Number
 SRS,Sounding Reference Signal
 SSID,Service Set IDentifier
+SSL,Secure Socket Layer
 SSS,Secondary Synchronization Signal
 SST,Slice Service Type
 SUL,Supplementary UpLink
@@ -251,14 +271,21 @@ TCP,Transmission Control Protocol
 TDD,Time Division Duplexing
 TDMA,Time Division Multiple Access
 TEID,Tunnel Endpoint ID
+TEK,Temporary Encryption Key
 TID,Traffic ID
 TIM,Traffic Indication Map
+TKIP,Temporary Key Integrity Protocol
+TLS,Transport Layer Security
 TLV,Type Length Value
 TS,Traffic Stream
+TSC,TKIP Sequence Counter
 TSF,Timing Synchronization Function
+TSN,Transitional Security Network
 TTI,Transmission Time Interval
 TTL,Time To Live
+TTLS,Tunneled Transport Layer Security
 TXOP,Transmission Opportunity
+UAM,Unified Access Management
 UDM,Unified Data Management
 UDP,User Datagram Protocol
 UE AMBR,UE Aggregate Maximum Bit Rate
@@ -266,13 +293,18 @@ UE,User Equipment
 UL SCH,UpLink Shared CHannel
 UP,User Priority
 UPF,User Plane Function
+URI,Uniform Resource Identifier
+URL,Uniform Resource Locator
 URLLC,Ultra Reliable and Low Latency Communications
 USIM,Umts Subscriber Identity Module
 USU,Unified Switching Unit
 VBS,Virtual Base Station
 VOIP,Voice Over IP
 VOLTE,Voice Over LTE
+WEP,Wired Equivalent Privacy
 WIFI,WIreless FIdelity
 WLAN,Wireless LAN
 WMAC,Wireless Media Access Controller
+WPA,Wifi Protected Access
+XML,EXtensible Markup Language
 XRES,eXpected RESponse
