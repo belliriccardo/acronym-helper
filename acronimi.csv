@@ -1,311 +1,311 @@
-4G,4th Generation
-5G,5th Generation
-5GC,5G Core network
-A MPDU,Aggregated Message Protocol Data Unit
-A MSDU,Aggregated MAC Service Data Units
-AAN,Authentication Algorithm Number
-AAU,Active Antenna Unit
-ACK,Acknowledgment
-ADDBA,Add Block Ack
-AES,Advanced Encryption Standard
-AF,Application Function
-AID,Association ID
-AIFS,Arbitration InterFrame Spacing
-AIFSN,Arbitration InterFrame Spacing Number
-AMBR,Aggregate Maximum Bit Rate
-AMF,Access and Mobility management Function
-AP,Access Point
-API,Application Programming Interface
-APN AMBR,APN Aggregate Maximum Bit Rate
-APN,Access Point Number
-ARP,Allocation and Retention Priority
-ARQ,Automatic Repeat Request
-ASIC,Application Specific Integrated Circuit
-AUC,AUthentication Center
-AUSF,Authentication Server Function
-AUTN,AUThentication Number
-BBU,BaseBand Unit
-BCCH,Broadcast Control CHannel
-BCH,Broadcast CHannel
-BPSK,Binary Phase Shift Keying
-BS,Base Station
-BSS,Basic Service Set
-BSSID,Basic Service Set IDentifier
-C RAN,Centralized RAN
-C RNTI,Cell Radio Network Temporary Identifier
-C RNTI,Control Radio Network Temporary Identifier
-CCCH,Common Control CHannel
-CDMA,Code Division Multiple Access
-CFI,Control Format Indicator
-CK,Ciphering Key
-CPRI,Common Public Radio Interface
-CRC,Cyclic Redundancy Check
-CSMA CD,CSMA with Collision Detection
-CSMA,Carrier Sense Multiple Access
-CSMF,Communication Service Management Function
-CTS,Clear To Send
-CU,Centralized Unit
-CUPS,Control and User Plan Separation
-CW,Contention Window
-DA,Destination Address
-DBPSK,Differential Binary Phase Shift Keying
-DCCH,Dedicated Control CHannel
-DCF,Distributed Coordination Function
-DHCP,Dynamic Host Configuration Protocol
-DIFS,DCF Inter Frame Spacing
-DL SCH,DownLink Shared CHannel
-DM RS,DeModulation Reference Signal
-DN,Data Network
-DQPSK,Differential Quadrature Phase Shift Keying
-DRB,Data Radio Bearer
-DS,Distribution System
-DSSS,Direct Sequence Spread Spectrum
-DTCH,Dedicated Traffic CHannel
-DU,Distributed Unit
-E RAB ID,EPS Radio Access Bearer ID
-E UTRAN,Evolved UMTS Terrestrial Radio Access Network
-EAP,Extensible Authentication Protocol
-EAPOL,EAP Over LAN
-EARFCN,E-UTRA Absolute Radio Frequency Channel Number
-ECGI,E-UTRAN Cell Global Identifier
-ECI,E-UTRAN Cell Identifier
-ECM,EPS Connection Management
-ECPRI,Enhanched Common Public Radio Interface
-EDCA,Enhanced Distributed Channel Access
-EIFS,Extended Inter Frame Space
-EIRP,Effective Isotropically Radiated Power
-EMBB,Enhanced Mobile BroadBand
-EMM,EPS Mobility Management
-EPC,Evolved Packet Core
-EPS,Evolved Packet System
-ERP,Extended Rate Protection
-ESS,Extended Service Set
-EUTRA,Evolved Universal Terrestrial Radio Access
-F OFDM,Filtered OFDM
-FCS,Frame Check Sequence
-FDD,Frequency Division Duplexing
-FDE,Frequency Domain Equalization
-FDMA,Frequency Division Multiple Access
-FEC,Forward Error Correction
-FF,Fixed Fields
-FFR,Fractional Frequency Reuse
-FHSS,Frequency Hopping Spread Spectrum
-GBR,Guaranteed Bit Rate
-GPRS,General Packet Radio Service
-GST,Generic Slice Template
-GTK,Group Temporary Key
-GTP C,GPRS Tunneling Protocol Control
-GTP U,GPRS Tunneling Protocol User plain
-GUMMEI,Globally Unique MME Identifier
-GUTI,Globally Unique UE Identity
-HARQ,Hybrid ARQ
-HCCA,HCF Controlled Channel Access
-HCF,Hybrid Coordination Function
-HR DSSS,High Rate Direct Sequence Spread Spectrum
-HSS,Home Subscribing Service
-HT,High Throughput
-HTTP,HyperText Transfer Protocol
-IBSS,Independent Base Service Set
-ICI,Inter Carrier Interference
-IE,Information Element
-IFS,Inter Frame Space
-IK,Integrity Key
-IMS,IP Multimedia Signalling
-IMSI,International Mobile Subscriber Identity
-IMT,International Mobile Technology
-IOT,Internet Of Things
-IP,Internet Protocol
-ISM,Industrial Scientific and Medical
-ITU,International Telecommunication Union
-K ASME,Key Access Security Management Entity
-K ENB,Key ENode B
-K NASENC,Key Non Access Stratum ENCoding
-K NASINT,Key Non Access Stratum INTegrity
-K RRCENC,Key Radio Resource Control ENCoding
-K RRCINT,Key Radio Resource Control INTegrity
-K UPENC,Key User Plain ENCoding
-KCK,Key Confirmation Key
-KDF,Key Derivation Function
-KEK,Key Encryption Key
-KSI ASME,Key Set Identifier Access Security Management Entity
-KSI,Key Set Identifier
-LAN,Local Area Network
-LDPC,Low Density Parity Check
-LEAP,Lightweight Extensible Authentication Protocol
-LLC,Logical Link Control
-LTE,Long Term Evolution
-M TMSI,Mobile Temporary Mobile Subscriber Identity
-MAC,Medium Access Control
-MCC,Mobile Country Code
-MCCH,Multicast Control CHannel
-MCH,Multicast CHannel
-MCS,Modulation and Coding Scheme
-MIB,Master Information Block
-MIC,Message Integrity Check
-MIMO,Multiple Input Multiple Output
-MME,Mobility Management Entity
-MMEC,Mobility Management Entity Code
-MMEGI,MME Group Identifier
-MMEI,MME Identifier
-MMTC,Massive Machine Type Communications
-MNC,Mobile Network Code
-MPDU,MAC Protocol Data Unit
-MPDU,Message Protocol Data Unit
-MQTT,Message Queue Telemetry Transport
-MSDU,MAC Service Data Units
-MSIN,Mobile Subscriber Identification Number
-MSK,Master Session Key
-MTCH,Multicast Traffic CHannel
-NACK,Negative Acknowledgment
-NAS MAC,NAS Message Authentication Code
-NAS SMC,NAS Security Mode Complete
-NAS,Non Access Stratum
-NAV,Network Allocation Vector
-NEF,Network Exposure Function
-NEST,NEtwork Slice Template
-NFV,Network Function Virtualization
-NG RAN,Next Generation Radio Access Network
-NRF,Network Repository Function
-NSI,Network Slice Instance
-NSMF,Network Slice Management Function
-NSSAI,Network Slice Selection Assistance Information
-NSSF,Network Slice Selection Function
-NSSMF,Network Slice Subnet Management Function
-OFDM,Orthogonal Frequency Division Multiplexing
-OFDMA,Orthogonal FDMA
-PAPR,Peak to Average Power Ratio
-PBCH,Physical Broadcast CHannel
-PCCH,Paging Control CHannel
-PCF,Point Coordination Function
-PCF,Policy Control Function
-PCFICH,Physical Control Format Indicator CHannel
-PCH,Paging CHannel
-PCI,Physical Cell ID
-PCO,Phased Coexistence Operation
-PCRF,Policy and Charging Rules Function
-PDCCH,Physical Downlink Control CHannel
-PDCP,Packet Data Convergence Protocol
-PDN,Packet Data Network
-PDR,Packet Detection Rule
-PDSCH,Physical Downlink Shared CHannel
-PDU,Protocol Data Unit
-PEAP,Protected Extensible Authentication Protocol
-PGW,PDN SAE Gateway
-PHICH,Physical Hybrid ARQ Indicator CHannel
-PIFS,PCF Inter Frame Space
-PLCP,Physical Layer Convergence Protocol
-PLMN,Public Land Mobile Network
-PMD,Physical Medium Dependent
-PMK,Pairwise Master Key
-POE,Power Over Ethernet
-PRACH,Physical Random Access CHannel
-PSDU,PLCP Service Data Unit
-PSK,Pre Shared Key
-PSS,Primary Synchronization Signal
-PTK,Pairwise Transparent Key
-PUCCH,Physical Uplink Control CHannel
-PUSCH,Physical Uplink Shared CHannel
-QAM,Quadrature Amplitude Modulation
-QCI,QOS Class Identifier
-QOS,Quality Of Service
-QPSK,Quadrature Phase Shift Keying
-RA RNTI,Random Access Radio Network Temporary Identifier
-RA,Receiver Address
-RACH,Random Access CHannel
-RAN,Radio Access Network
-RB,Resource Blocks
-RDG,Revrese Direction Grant
-REST,REpresentational State Transfer
-RFU,Radio Frequency Unit
-RIFS,Reduced Inter Frame Space
-RLC,Radio Link Control
-RNTI,Radio Network Temporary Identifier
-ROHC,RObust Header Compression
-RRC,Radio Resource Control
-RRH,Remote Radio Head
-RRU,Remote Radio Unit
-RSN,Robust Security Network
-RSNA,Robust Security Network Association
-RSRP,Reference Signals Received Power
-RTP,Real Time Protocol
-RTS,Request To Send
-S TMSI,SAE Temporary Mobile Subscriber Identity
-SA,Source Address
-SAP,Service Access Point
-SBI,Service Based Interface
-SC OFDMA,Single Carrier OFDMA
-SCH,Shared CHannel
-SCTP,Stream Control Transmission Protocol
-SD,Slice Differentiator
-SDAP,Service Data Adaptation Protocol
-SDM,Spatial Division Multiplexing
-SDN,Software Defined Networking
-SDU,Service Data Unit
-SFD,Start of Frame Delimiter
-SFN,Sub Frame Number
-SFR,Soft Frequency Reuse
-SGW,Serving SAE Gateway
-SIB,Signal Information Block
-SIFS,Short Inter Frame Space
-SIM,Subscriber Identity Module
-SIR,Signal to Interference Ratio
-SISO,Single Input Single Output
-SMF,Session Management Function
-SNAP,SubNetwork Access Protocol
-SNIR,Signal to Noise and Interference Ratio
-SNR,Signal to Noise Ratio
-SOAP,Simple Object Access Protocol
-SPR,Subscriber Profile Repositories
-SQN,SeQuence Number
-SRS,Sounding Reference Signal
-SSID,Service Set IDentifier
-SSL,Secure Socket Layer
-SSS,Secondary Synchronization Signal
-SST,Slice Service Type
-SUL,Supplementary UpLink
-TA,Transmitter Address
-TAC,Tracking Area Code
-TAI,Tracking Area Identity
-TAU,Tracking Area Update
-TBTT,Target Beacon Transmission Time
-TCP,Transmission Control Protocol
-TDD,Time Division Duplexing
-TDMA,Time Division Multiple Access
-TEID,Tunnel Endpoint ID
-TEK,Temporary Encryption Key
-TID,Traffic ID
-TIM,Traffic Indication Map
-TKIP,Temporary Key Integrity Protocol
-TLS,Transport Layer Security
-TLV,Type Length Value
-TS,Traffic Stream
-TSC,TKIP Sequence Counter
-TSF,Timing Synchronization Function
-TSN,Transitional Security Network
-TTI,Transmission Time Interval
-TTL,Time To Live
-TTLS,Tunneled Transport Layer Security
-TXOP,Transmission Opportunity
-UAM,Unified Access Management
-UDM,Unified Data Management
-UDP,User Datagram Protocol
-UE AMBR,UE Aggregate Maximum Bit Rate
-UE,User Equipment
-UL SCH,UpLink Shared CHannel
-UP,User Priority
-UPF,User Plane Function
-URI,Uniform Resource Identifier
-URL,Uniform Resource Locator
-URLLC,Ultra Reliable and Low Latency Communications
-USIM,Umts Subscriber Identity Module
-USU,Unified Switching Unit
-VBS,Virtual Base Station
-VOIP,Voice Over IP
-VOLTE,Voice Over LTE
-WEP,Wired Equivalent Privacy
-WIFI,WIreless FIdelity
-WLAN,Wireless LAN
-WMAC,Wireless Media Access Controller
-WPA,Wifi Protected Access
-XML,EXtensible Markup Language
-XRES,eXpected RESponse
+"4G","4th Generation","La quarta generazione di reti cellulari mobili, anche nota come LTE."
+"5G","5th Generation","La quinta generazione di reti cellulari mobili."
+"5GC","5G Core network",""
+"A MPDU","Aggregated Message Protocol Data Unit",""
+"A MSDU","Aggregated MAC Service Data Units",""
+"AAN","Authentication Algorithm Number",""
+"AAU","Active Antenna Unit",""
+"ACK","Acknowledgment","Simbolo che identifica un segnale di risposta di ricezione completa di informazione."
+"ADDBA","Add Block Ack",""
+"AES","Advanced Encryption Standard",""
+"AF","Application Function",""
+"AID","Association ID",""
+"AIFS","Arbitration InterFrame Spacing",""
+"AIFSN","Arbitration InterFrame Spacing Number",""
+"AMBR","Aggregate Maximum Bit Rate",""
+"AMF","Access and Mobility management Function",""
+"AP","Access Point",""
+"API","Application Programming Interface",""
+"APN AMBR","APN Aggregate Maximum Bit Rate",""
+"APN","Access Point Number",""
+"ARP","Allocation and Retention Priority",""
+"ARQ","Automatic Repeat Request",""
+"ASIC","Application Specific Integrated Circuit",""
+"AUC","AUthentication Center",""
+"AUSF","Authentication Server Function",""
+"AUTN","AUThentication Number",""
+"BBU","BaseBand Unit",""
+"BCCH","Broadcast Control CHannel",""
+"BCH","Broadcast CHannel","Canale associato al broadcast."
+"BPSK","Binary Phase Shift Keying",""
+"BS","Base Station",""
+"BSS","Basic Service Set",""
+"BSSID","Basic Service Set IDentifier",""
+"C RAN","Centralized RAN",""
+"C RNTI","Cell Radio Network Temporary Identifier",""
+"C RNTI","Control Radio Network Temporary Identifier",""
+"CCCH","Common Control CHannel","Serve ad inviare informazioni su un canale comune, in cui la stazione radio base invia informazioni ai terminali che non hanno un proprio canale di controllo dedicato."
+"CDMA","Code Division Multiple Access",""
+"CFI","Control Format Indicator",""
+"CK","Ciphering Key",""
+"CPRI","Common Public Radio Interface",""
+"CRC","Cyclic Redundancy Check",""
+"CSMA CD","CSMA with Collision Detection",""
+"CSMA","Carrier Sense Multiple Access",""
+"CSMF","Communication Service Management Function",""
+"CTS","Clear To Send",""
+"CU","Centralized Unit",""
+"CUPS","Control and User Plan Separation",""
+"CW","Contention Window",""
+"DA","Destination Address",""
+"DBPSK","Differential Binary Phase Shift Keying",""
+"DCCH","Dedicated Control CHannel","Su questo canale vengono inviate all'utente le informazioni di controllo, e viene assegnato ad un terminale."
+"DCF","Distributed Coordination Function",""
+"DHCP","Dynamic Host Configuration Protocol",""
+"DIFS","DCF Inter Frame Spacing",""
+"DL SCH","DownLink Shared CHannel",""
+"DM RS","DeModulation Reference Signal",""
+"DN","Data Network",""
+"DQPSK","Differential Quadrature Phase Shift Keying",""
+"DRB","Data Radio Bearer",""
+"DS","Distribution System",""
+"DSSS","Direct Sequence Spread Spectrum",""
+"DTCH","Dedicated Traffic CHannel","Su questo canale vengono inviati i dati all'utente."
+"DU","Distributed Unit",""
+"E RAB ID","EPS Radio Access Bearer ID",""
+"E UTRAN","Evolved UMTS Terrestrial Radio Access Network",""
+"EAP","Extensible Authentication Protocol",""
+"EAPOL","EAP Over LAN",""
+"EARFCN","E-UTRA Absolute Radio Frequency Channel Number",""
+"ECGI","E-UTRAN Cell Global Identifier",""
+"ECI","E-UTRAN Cell Identifier",""
+"ECM","EPS Connection Management",""
+"ECPRI","Enhanched Common Public Radio Interface",""
+"EDCA","Enhanced Distributed Channel Access",""
+"EIFS","Extended Inter Frame Space",""
+"EIRP","Effective Isotropically Radiated Power",""
+"EMBB","Enhanced Mobile BroadBand",""
+"EMM","EPS Mobility Management",""
+"EPC","Evolved Packet Core",""
+"EPS","Evolved Packet System",""
+"ERP","Extended Rate Protection",""
+"ESS","Extended Service Set",""
+"EUTRA","Evolved Universal Terrestrial Radio Access",""
+"F OFDM","Filtered OFDM",""
+"FCS","Frame Check Sequence",""
+"FDD","Frequency Division Duplexing",""
+"FDE","Frequency Domain Equalization",""
+"FDMA","Frequency Division Multiple Access",""
+"FEC","Forward Error Correction",""
+"FF","Fixed Fields",""
+"FFR","Fractional Frequency Reuse",""
+"FHSS","Frequency Hopping Spread Spectrum",""
+"GBR","Guaranteed Bit Rate",""
+"GPRS","General Packet Radio Service",""
+"GST","Generic Slice Template",""
+"GTK","Group Temporary Key",""
+"GTP C","GPRS Tunneling Protocol Control",""
+"GTP U","GPRS Tunneling Protocol User plain",""
+"GUMMEI","Globally Unique MME Identifier",""
+"GUTI","Globally Unique UE Identity",""
+"HARQ","Hybrid ARQ",""
+"HCCA","HCF Controlled Channel Access",""
+"HCF","Hybrid Coordination Function",""
+"HR DSSS","High Rate Direct Sequence Spread Spectrum",""
+"HSS","Home Subscribing Service",""
+"HT","High Throughput",""
+"HTTP","HyperText Transfer Protocol",""
+"IBSS","Independent Base Service Set",""
+"ICI","Inter Carrier Interference",""
+"IE","Information Element",""
+"IFS","Inter Frame Space",""
+"IK","Integrity Key",""
+"IMS","IP Multimedia Signalling",""
+"IMSI","International Mobile Subscriber Identity",""
+"IMT","International Mobile Technology",""
+"IOT","Internet Of Things",""
+"IP","Internet Protocol",""
+"ISM","Industrial Scientific and Medical",""
+"ITU","International Telecommunication Union",""
+"K ASME","Key Access Security Management Entity",""
+"K ENB","Key ENode B",""
+"K NASENC","Key Non Access Stratum ENCoding",""
+"K NASINT","Key Non Access Stratum INTegrity",""
+"K RRCENC","Key Radio Resource Control ENCoding",""
+"K RRCINT","Key Radio Resource Control INTegrity",""
+"K UPENC","Key User Plain ENCoding",""
+"KCK","Key Confirmation Key",""
+"KDF","Key Derivation Function",""
+"KEK","Key Encryption Key",""
+"KSI ASME","Key Set Identifier Access Security Management Entity",""
+"KSI","Key Set Identifier",""
+"LAN","Local Area Network",""
+"LDPC","Low Density Parity Check",""
+"LEAP","Lightweight Extensible Authentication Protocol",""
+"LLC","Logical Link Control",""
+"LTE","Long Term Evolution",""
+"M TMSI","Mobile Temporary Mobile Subscriber Identity",""
+"MAC","Medium Access Control",""
+"MCC","Mobile Country Code",""
+"MCCH","Multicast Control CHannel","Equivalente multicast del DCCH."
+"MCH","Multicast CHannel","Canale di multicast associato ai corrispettivi canali logici."
+"MCS","Modulation and Coding Scheme",""
+"MIB","Master Information Block",""
+"MIC","Message Integrity Check",""
+"MIMO","Multiple Input Multiple Output",""
+"MME","Mobility Management Entity",""
+"MMEC","Mobility Management Entity Code",""
+"MMEGI","MME Group Identifier",""
+"MMEI","MME Identifier",""
+"MMTC","Massive Machine Type Communications",""
+"MNC","Mobile Network Code",""
+"MPDU","MAC Protocol Data Unit",""
+"MPDU","Message Protocol Data Unit",""
+"MQTT","Message Queue Telemetry Transport",""
+"MSDU","MAC Service Data Units",""
+"MSIN","Mobile Subscriber Identification Number",""
+"MSK","Master Session Key",""
+"MTCH","Multicast Traffic CHannel","Equivalente multicast del DTCH."
+"NACK","Negative Acknowledgment",""
+"NAS MAC","NAS Message Authentication Code",""
+"NAS SMC","NAS Security Mode Complete",""
+"NAS","Non Access Stratum",""
+"NAV","Network Allocation Vector",""
+"NEF","Network Exposure Function",""
+"NEST","NEtwork Slice Template",""
+"NFV","Network Function Virtualization",""
+"NG RAN","Next Generation Radio Access Network",""
+"NRF","Network Repository Function",""
+"NSI","Network Slice Instance",""
+"NSMF","Network Slice Management Function",""
+"NSSAI","Network Slice Selection Assistance Information",""
+"NSSF","Network Slice Selection Function",""
+"NSSMF","Network Slice Subnet Management Function",""
+"OFDM","Orthogonal Frequency Division Multiplexing",""
+"OFDMA","Orthogonal FDMA",""
+"PAPR","Peak to Average Power Ratio",""
+"PBCH","Physical Broadcast CHannel",""
+"PCCH","Paging Control CHannel","Canale associato al PCH (Paging CHannel); qui vengono trasmessi i segnali di ricerca (paging) in caso di chiamata telefonica entrante per un terminale."
+"PCF","Point Coordination Function",""
+"PCF","Policy Control Function",""
+"PCFICH","Physical Control Format Indicator CHannel",""
+"PCH","Paging CHannel","Canale usato per svolgere operazioni di paging (ricerca utente)."
+"PCI","Physical Cell ID","Dal suo valore si può dedurre la posizione dei segnali di riferimento. Si calcola come:\n\t3 * ID SSS + ID PSS"
+"PCO","Phased Coexistence Operation",""
+"PCRF","Policy and Charging Rules Function",""
+"PDCCH","Physical Downlink Control CHannel",""
+"PDCP","Packet Data Convergence Protocol",""
+"PDN","Packet Data Network",""
+"PDR","Packet Detection Rule",""
+"PDSCH","Physical Downlink Shared CHannel",""
+"PDU","Protocol Data Unit",""
+"PEAP","Protected Extensible Authentication Protocol",""
+"PGW","PDN SAE Gateway",""
+"PHICH","Physical Hybrid ARQ Indicator CHannel",""
+"PIFS","PCF Inter Frame Space",""
+"PLCP","Physical Layer Convergence Protocol",""
+"PLMN","Public Land Mobile Network",""
+"PMD","Physical Medium Dependent",""
+"PMK","Pairwise Master Key",""
+"POE","Power Over Ethernet",""
+"PRACH","Physical Random Access CHannel",""
+"PSDU","PLCP Service Data Unit",""
+"PSK","Pre Shared Key",""
+"PSS","Primary Synchronization Signal","Segnale di sincronizzazione che serve ad allinearsi a livello di trama. È presente due volte in ogni trama: nel time slot 1 e 11.\nPiù specificatamente si trova sull'ultimo simbolo del primo e undiciesimo time slot della trama."
+"PTK","Pairwise Transparent Key",""
+"PUCCH","Physical Uplink Control CHannel",""
+"PUSCH","Physical Uplink Shared CHannel",""
+"QAM","Quadrature Amplitude Modulation",""
+"QCI","QOS Class Identifier",""
+"QOS","Quality Of Service",""
+"QPSK","Quadrature Phase Shift Keying",""
+"RA RNTI","Random Access Radio Network Temporary Identifier",""
+"RA","Receiver Address",""
+"RACH","Random Access CHannel",""
+"RAN","Radio Access Network",""
+"RB","Resource Blocks",""
+"RDG","Revrese Direction Grant",""
+"REST","REpresentational State Transfer",""
+"RFU","Radio Frequency Unit",""
+"RIFS","Reduced Inter Frame Space",""
+"RLC","Radio Link Control",""
+"RNTI","Radio Network Temporary Identifier",""
+"ROHC","RObust Header Compression",""
+"RRC","Radio Resource Control",""
+"RRH","Remote Radio Head",""
+"RRU","Remote Radio Unit",""
+"RSN","Robust Security Network",""
+"RSNA","Robust Security Network Association",""
+"RSRP","Reference Signals Received Power",""
+"RTP","Real Time Protocol",""
+"RTS","Request To Send",""
+"S TMSI","SAE Temporary Mobile Subscriber Identity",""
+"SA","Source Address",""
+"SAP","Service Access Point",""
+"SBI","Service Based Interface",""
+"SC OFDMA","Single Carrier OFDMA",""
+"SCH","Shared CHannel",""
+"SCTP","Stream Control Transmission Protocol",""
+"SD","Slice Differentiator",""
+"SDAP","Service Data Adaptation Protocol",""
+"SDM","Spatial Division Multiplexing",""
+"SDN","Software Defined Networking",""
+"SDU","Service Data Unit",""
+"SFD","Start of Frame Delimiter",""
+"SFN","Sub Frame Number",""
+"SFR","Soft Frequency Reuse",""
+"SGW","Serving SAE Gateway",""
+"SIB","Signal Information Block",""
+"SIFS","Short Inter Frame Space",""
+"SIM","Subscriber Identity Module",""
+"SIR","Signal to Interference Ratio",""
+"SISO","Single Input Single Output",""
+"SMF","Session Management Function",""
+"SNAP","SubNetwork Access Protocol",""
+"SNIR","Signal to Noise and Interference Ratio",""
+"SNR","Signal to Noise Ratio",""
+"SOAP","Simple Object Access Protocol",""
+"SPR","Subscriber Profile Repositories",""
+"SQN","SeQuence Number",""
+"SRS","Sounding Reference Signal",""
+"SSID","Service Set IDentifier",""
+"SSL","Secure Socket Layer",""
+"SSS","Secondary Synchronization Signal","Segnale di sincronizzazione; il primo ci permette di allinearci a livello di trama, il secondo ci permette di capire in che slot siamo sincronizzati e ci permette di calcolare il PCI."
+"SST","Slice Service Type",""
+"SUL","Supplementary UpLink",""
+"TA","Transmitter Address",""
+"TAC","Tracking Area Code",""
+"TAI","Tracking Area Identity",""
+"TAU","Tracking Area Update",""
+"TBTT","Target Beacon Transmission Time",""
+"TCP","Transmission Control Protocol",""
+"TDD","Time Division Duplexing",""
+"TDMA","Time Division Multiple Access",""
+"TEID","Tunnel Endpoint ID",""
+"TEK","Temporary Encryption Key",""
+"TID","Traffic ID",""
+"TIM","Traffic Indication Map",""
+"TKIP","Temporary Key Integrity Protocol",""
+"TLS","Transport Layer Security",""
+"TLV","Type Length Value",""
+"TS","Traffic Stream",""
+"TSC","TKIP Sequence Counter",""
+"TSF","Timing Synchronization Function",""
+"TSN","Transitional Security Network",""
+"TTI","Transmission Time Interval",""
+"TTL","Time To Live",""
+"TTLS","Tunneled Transport Layer Security",""
+"TXOP","Transmission Opportunity",""
+"UAM","Unified Access Management",""
+"UDM","Unified Data Management",""
+"UDP","User Datagram Protocol",""
+"UE AMBR","UE Aggregate Maximum Bit Rate",""
+"UE","User Equipment",""
+"UL SCH","UpLink Shared CHannel",""
+"UP","User Priority",""
+"UPF","User Plane Function",""
+"URI","Uniform Resource Identifier",""
+"URL","Uniform Resource Locator",""
+"URLLC","Ultra Reliable and Low Latency Communications",""
+"USIM","Umts Subscriber Identity Module",""
+"USU","Unified Switching Unit",""
+"VBS","Virtual Base Station",""
+"VOIP","Voice Over IP",""
+"VOLTE","Voice Over LTE",""
+"WEP","Wired Equivalent Privacy",""
+"WIFI","WIreless FIdelity",""
+"WLAN","Wireless LAN",""
+"WMAC","Wireless Media Access Controller",""
+"WPA","Wifi Protected Access",""
+"XML","EXtensible Markup Language",""
+"XRES","eXpected RESponse",""

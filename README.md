@@ -7,7 +7,11 @@ $ python3 ah.py --file filename.csv
 https://user-images.githubusercontent.com/61554895/168433599-795ccbc0-6536-4561-98a4-fe2a6853403f.mp4
 
 
-Per motivi di convenienza si può anche usare un alias come `alias ah='python3 /path/to/ah.py --file /path/to/file.csv'` da inserire dentro `.bashrc`. Per cancellare il testo basta usare `backspace` o `canc` per eliminare tutto. Gli argomenti sono:
+Per motivi di convenienza si può anche usare un alias come `alias ah='python3 /path/to/ah.py --file /path/to/file.csv'` da inserire dentro `.bashrc`. Per cancellare il testo basta usare `backspace` per eliminare l'ultimo carattere o `canc` per eliminare tutto.
+
+Per gli acronimi segnati con il simbolo `(!)` è anche disponibile una descrizione; per visualizzarla basta premere il tasto `invio`.
+
+Gli argomenti sono:
 
 `--show <num>`: Quanti suggerimenti di acronimi simili vengono mostrati; di default è 5
 

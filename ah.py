@@ -29,9 +29,9 @@ def loadAcronymsFromFile(file_path: str, uniqueness_delimiter: str) -> dict:
     acronyms = dict()
     with open(file_path) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
-        for (acronym, extended) in csv_reader:
+        for (acronym, extended, description) in csv_reader:
             acronym += uniqueness_delimiter + f'{random.randint(0, 1_000_000_000):09d}'
-            acronyms[acronym] = extended
+            acronyms[acronym] = (extended, description.replace(r'\n', '\n').replace(r'\t', '\t'))
 
     return acronyms
 
@@ -75,22 +75,28 @@ def main(args) -> None:
 
             close_ones = []
 
-            for key, value in acronyms.items():
+            for key, (value, _) in acronyms.items():
                 close_ones.append(
                     (similar(typed, key[0:len(typed)]), key, value))
 
             closest = sorted(close_ones, reverse=True)[0][1]
 
             if closest != '':
-                acr = acronyms[closest]
+                acr, description = acronyms[closest]
                 text = f'{typed} -> {closest.split(delimiter)[0]}: {acr}'
+                if description != "":
+                    text += " (!)"
+                if ord(k) == 13 and description != "":  # invio
+                    text += f'\n\n{description}\n\n'
 
-                for close_one in sorted(close_ones, reverse=True)[1:show_closest_n + 1]:
-                    close_k, close_v = close_one[1:]
-                    whitespace = ' ' * len(f'{typed} ->')
-                    text_extra += f'\n{whitespace} {close_k.split(delimiter)[0]} -> {close_v}'
+                else:
 
-                text_extra += '\n'
+                    for close_one in sorted(close_ones, reverse=True)[1:show_closest_n + 1]:
+                        close_k, close_v = close_one[1:]
+                        whitespace = ' ' * len(f'{typed} ->')
+                        text_extra += f'\n{whitespace} {close_k.split(delimiter)[0]} -> {close_v}'
+
+                    text_extra += '\n'
 
         clearscreen(args.noscroll)
 
