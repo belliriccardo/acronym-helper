@@ -75,9 +75,9 @@ def main(args) -> None:
 
             close_ones = []
 
-            for key, (value, _) in acronyms.items():
+            for key, (value, desc) in acronyms.items():
                 close_ones.append(
-                    (similar(typed, key[0:len(typed)]), key, value))
+                    (similar(typed, key[0:len(typed)]), key, value, desc))
 
             closest = sorted(close_ones, reverse=True)[0][1]
 
@@ -92,9 +92,12 @@ def main(args) -> None:
                 else:
 
                     for close_one in sorted(close_ones, reverse=True)[1:show_closest_n + 1]:
-                        close_k, close_v = close_one[1:]
+                        close_k, close_v, close_desc = close_one[1:]
                         whitespace = ' ' * len(f'{typed} ->')
                         text_extra += f'\n{whitespace} {close_k.split(delimiter)[0]} -> {close_v}'
+
+                        if close_desc != "":
+                            text_extra += " (!)"
 
                     text_extra += '\n'
 
@@ -127,6 +130,9 @@ if __name__ == '__main__':
     except TypeError as e:
         # Carattere non ASCII o altra roba strana; per caso è attivo num lock?
         click.echo(f'Carattere inaspettato: {e}')
+    except EOFError as e:
+        # Probabilmente per aver premuto Ctrl-D per uscire dal terminale; esco
+        clearscreen(args.noscroll)
     except Exception as e:
         # Ah boh finora mai successo però
         click.echo(f'Qualcos\'altro è andato storto! Verificare: {e}')
